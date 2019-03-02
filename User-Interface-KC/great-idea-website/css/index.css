@@ -1,0 +1,301 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1.25;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+/* Your code starts here! */
+#page {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+nav {
+  margin: 0px auto 40px auto;
+  padding: 20px 0px;
+  background-image: radial-gradient(
+    circle,
+    #00c5f7,
+    #00eeff,
+    #00ffea,
+    #00ff7b,
+    #0eff00
+  );
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav > ul > li > a:hover {
+  background: rgb(0, 255, 123, 0.7);
+  padding: 23px 20px 28px 20px;
+}
+
+#first-nav-link {
+  margin: 0;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin-left: 90px;
+}
+
+.logo {
+  padding-right: 12px;
+  vertical-align: middle;
+}
+
+.col {
+  width: 460px;
+  float: left;
+}
+
+.col-1 {
+  display: inline-block;
+  padding: 40px 0px 40px 0px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.col-1 h1 {
+  margin-bottom: 5px;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.col-1 button {
+  margin-top: 5px;
+  padding: 10px 48px;
+  font-size: 1em;
+  background: transparent;
+  cursor: pointer;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.col-1 button:hover {
+  background: #00eeff;
+  border: none;
+  color: #000;
+}
+
+.col-2 {
+  margin-left: 40px;
+  padding-bottom: 57px;
+  text-align: right;
+  background-color: transparent;
+}
+
+#circle {
+  width: 375px;
+}
+
+.col-3 {
+  margin: 10px 10px 0px 0px;
+  padding: 10px 10px 10px 0px;
+  text-align: justify;
+  background-color: transparent;
+}
+
+.col-4 {
+  margin: 10px 0px 0px 30px;
+  padding: 10px 10px 10px 0px;
+  text-align: justify;
+  background-color: transparent;
+}
+
+.middle-img {
+  display: inline-block;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.col-5,
+.col-6,
+.col-7,
+.col-8 {
+  float: left;
+  max-width: 300px;
+  margin: 20px 20px 40px 0px;
+  background-color: transparent;
+}
+
+.clear {
+  clear: left;
+  text-align: center;
+  padding: 60px 0px;
+}
+
+footer {
+  background-image: radial-gradient(
+    circle,
+    #00fcff,
+    #00ffe5,
+    #00ffb9,
+    #00ff7b,
+    #0eff00
+  );
+}
+
+hr {
+  border: 0.5px solid black;
+}
+
+.last {
+  line-height: 1.25;
+}
